@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins' , sans-serif;
+}
+
+.header
+{
+    line-height: 100px;
+    padding-left: 30px;
+    background-color: rgba(5, 4, 46, 0.7);
+    backdrop-filter: blur(35px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.ad
+{
+    color: white;
+    font-size: 1.5em;
+}
+.ad:hover
+{
+    color: yellow;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.logout
+{
+    float: right;
+    padding-right: 150px;
+}
+.logout .btn-primary
+{
+    font-size: 1.5em;
+}
+ul
+{
+    background-color:skyblue ;
+    backdrop-filter: blur(35px);
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+ul li
+{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size:20px;
+}
+ul li a
+{
+    color: rgb(26, 6, 82);
+    font-weight: 550;
+}
+ul li a:hover
+{
+    color: rgb(247, 33, 140);
+    text-decoration: none;
+}
+.content
+{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+h1
+{
+    font-weight: 600;
+}
+p
+{
+    font-size: 18px;
+}
+.table-td
+{
+    padding: 20px;font-size:20px;color:black; text-align:center;
+    background:rgba(2, 24, 85, 0.308); backdrop-filter: blur(25px);
+}
+.table-td a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+.table-td a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 769px)
+{
+
+ul
+{
+   width: 30%;
+}
+.content
+{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.logout a
+
+{
+    position: fixed;
+}
+}
